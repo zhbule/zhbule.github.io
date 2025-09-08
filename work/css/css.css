@@ -1,0 +1,451 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.images {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    width: 960px;
+    margin: auto;
+}
+
+.logo img {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.nav {
+    width: 960px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    margin: auto;
+}
+
+.nav li {
+    width: 160px;
+    float: left;
+    text-align: center;
+}
+
+.nav li a {
+    display: block;
+    font-size: 22px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+.nav li img {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.topsite {
+    width: 960px;
+    height: 60px;
+    background-color: #00b8ee;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.topsite .sear {
+    width: 310px;
+    height: 40px;
+    margin: 10px;
+    float: left;
+}
+
+.topsite .sear .text {
+    width: 260px;
+    height: 40px;
+    border: none;
+    float: left;
+}
+
+.topsite .sear .btn {
+    width: 50px;
+    height: 40px;
+    border: none;
+    background: #ffff00;
+    color: #000;
+    float: left;
+}
+
+.topsite .link {
+    float: left;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.topsite .link a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.topsite .link a:hover {
+    text-decoration: underline;
+}
+
+/*首页中间*/
+.main {
+    width: 960px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.main .left {
+    width: 210px;
+    float: left;
+}
+
+.main .gonggao {
+    width: 200px;
+    height: 400px;
+    float: left;
+    border: 5px solid #00b8ee;
+    overflow: hidden;
+}
+
+.main .gonggao h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main .gonggao p {
+    width: 180px;
+    margin: auto;
+    padding: 10px;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.main .min {
+    width: 520px;
+    float: left;
+    margin-left: 10px;
+}
+
+.main .pic_show {
+    width: 480px;
+    height: 380px;
+    padding: 15px 20px;
+    float: left;
+    background: #00b8ee;
+    text-align: center;
+}
+
+.main .pic_show img {
+    width: 240px;
+    height: 190px;
+    float: left;
+    display: block;
+}
+
+.main .right {
+    width: 210px;
+    float: left;
+    margin-left: 10px;
+}
+
+.main .login a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 5px solid #00b8ee;
+    color: #00b8ee;
+    margin-bottom: 5px;
+}
+
+.main .login a:hover {
+    background: #00b8ee;
+    color: #fff;
+}
+
+.right_nav {
+    width: 210px;
+    height: 300px;
+}
+
+.right_nav h3 {
+    text-align: center;
+}
+
+.right_nav li {
+    float: left;
+    margin: 5px;
+}
+
+.right_nav li a {
+    display: block;
+    font-size: 16px;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+    background: #ffff00;
+    color: #666;
+    text-align: center;
+}
+
+.right_nav li a:hover {
+    color: #FF00CC;
+}
+
+/*底部*/
+.footer {
+    width: 960px;
+    padding: 20px 0;
+    background-color: #00b8ee;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*养狗知道*/
+.zhidao {
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.zhidao h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.zhidao p {
+    font-size: 14px;
+    line-height: 2;
+    text-indent: 28px;
+}
+
+.zhidao img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+/*狗狗介绍*/
+.jieshao {
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.jieshao h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.jieshao p {
+    font-size: 14px;
+    line-height: 2;
+    text-indent: 28px;
+}
+
+.jieshao img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+/*宠物图集*/
+.tuji {
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.tuji h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tuji li {
+    width: 280px;
+    float: left;
+    margin: 20px;
+}
+
+.tuji li img {
+    width: 280px;
+    height: 280px;
+}
+
+.tuji li p {
+    text-align: center;
+}
+
+/*领养宠物*/
+.lingyang {
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.lingyang h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lingyang li {
+    width: 220px;
+    float: left;
+    margin: 10px;
+}
+
+.lingyang li img {
+    width: 220px;
+    height: 220px;
+}
+
+.lingyang li p {
+    text-align: center;
+}
+
+.lingyang li a {
+    display: block;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #ffff00;
+    color: #666;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.lingyang li a:hover {
+    color: #FF00CC;
+}
+
+/*在线留言*/
+.liuyan {
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.liuyan h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.liuyan p {
+    line-height: 30px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.liuyan p span {
+    display: block;
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: right;
+}
+
+.liuyan p input {
+    width: 298px;
+    height: 28px;
+    display: block;
+    float: left;
+    border: 1px solid #000;
+}
+
+.liuyan p textarea {
+    width: 298px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.liuyan .btn {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.liuyan .btn input {
+    width: 100px;
+    height: 30px;
+}
+
+/*登录和注册*/
+.login {
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login p {
+    line-height: 30px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.login p span {
+    display: block;
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: right;
+}
+
+.login p input {
+    width: 298px;
+    height: 28px;
+    display: block;
+    float: left;
+    border: 1px solid #000;
+}
+
+.login .btn {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.login .btn input {
+    width: 100px;
+    height: 30px;
+}
